@@ -815,7 +815,7 @@ print(d.count)
 
 tabs = ""
 INPUT = []
-f = open("/home/vaibhav/Downloads/{}.csv".format(sys.argv[1]))
+f = open(sys.argv[1])
 data = f.readlines()
 for i in range(len(data)):
 	if data[i][-1] == '\n':
